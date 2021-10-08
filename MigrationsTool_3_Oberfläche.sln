@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigrationsTool_3_Oberfläche", "MigrationsTool_3_Oberfläche\MigrationsTool_3_Oberfläche.csproj", "{A17F977C-2B2E-4806-AFFF-1F519E2D2A10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigrationsTool_3", "..\MigrationsTool_3\MigrationsTool_3\MigrationsTool_3.csproj", "{16F8406B-A3A5-4ACB-BCA4-265C5490DF10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A17F977C-2B2E-4806-AFFF-1F519E2D2A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A17F977C-2B2E-4806-AFFF-1F519E2D2A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A17F977C-2B2E-4806-AFFF-1F519E2D2A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A17F977C-2B2E-4806-AFFF-1F519E2D2A10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F8406B-A3A5-4ACB-BCA4-265C5490DF10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F8406B-A3A5-4ACB-BCA4-265C5490DF10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F8406B-A3A5-4ACB-BCA4-265C5490DF10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F8406B-A3A5-4ACB-BCA4-265C5490DF10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F6B743B-F858-47B8-9D85-C71DB757F97E}
+	EndGlobalSection
+EndGlobal
