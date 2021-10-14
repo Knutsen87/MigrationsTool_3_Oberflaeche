@@ -36,5 +36,25 @@ namespace MigrationsTool_3_Oberfläche
         {
             Close();
         }
+
+        private void CmdOpenBuchungsDaten_Click(object sender, EventArgs e)
+        {
+            //Erlaubt nur CSV Dateien zur Auswahl
+            openFileDialog1.Filter = "CSV files (*.csv)|*.csv";
+            // Zeigt den Dialog und holt sich result
+            DialogResult result = openFileDialog1.ShowDialog();
+            if (result == DialogResult.OK) // Test result
+            {
+                // Zeigt dem Nutzer an ob er die richtige Datei ausgewählt hat.
+                string[] fileName = openFileDialog1.FileName.Split('\\');
+                LblDateiAnzeige.Text = fileName[fileName.Length - 1];
+            }
+            // MessageBox.Show(result.ToString()); // Zum debugging
+        }
+
+        private void LblDateiAnzeige_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
